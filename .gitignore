@@ -1,1 +1,19 @@
+## macOS
 .DS_Store
+
+## VS Code
+.vscode/
+
+## LaTeX
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.idx
+*.log
+*.out
+*.out.ps
+*.pdf
+*.synctex.gz
+*.toc
+*__latexindent_temp.tex
