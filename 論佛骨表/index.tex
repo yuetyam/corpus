@@ -7,6 +7,7 @@
 \usepackage{fontspec}
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{titling}
 
 \setsansfont{Roboto}
 \setmonofont{JetBrains Mono}
@@ -22,21 +23,21 @@
 
 \geometry{
         a4paper,
-        top = 5em,
-        bottom = 5em
+        top = 4em,
+        bottom = 4em
 }
 
+\setlength{\droptitle}{-4em}
 \setlength{\parskip}{1em}
 \pagenumbering{gobble}
 
+\title{論佛骨表}
+\author{韓愈}
+\predate{}
+\date{}
+\postdate{}
+
 \begin{document}
-\begin{center}
-        論佛骨表
-\end{center}
-
-\begin{center}
-        韓愈
-\end{center}
-
+\maketitle
 \input{content}
 \end{document}

@@ -1,5 +1,9 @@
 # 論佛骨表
 
-~~~tex
+~~~bash
 xelatex --jobname=article index.tex
+~~~
+
+~~~bash
+pandoc index.tex -f latex -t html -s -o index.html
 ~~~
